@@ -12,6 +12,7 @@ import {
 // Default styles that can be overridden by your app
 import "@solana/wallet-adapter-react-ui/styles.css";
 import TokenLaunchpad from "./components/TokenLaunchpad";
+import TokenLaunchpadWithMetadata from "./components/TokenLaunchpadWithMetadata";
 
 const App = () => {
   return (
@@ -43,7 +44,8 @@ const App = () => {
               marginTop: "2rem",
             }}
           >
-            <TokenLaunchpad></TokenLaunchpad>
+            {/* <TokenLaunchpad></TokenLaunchpad> */}
+            <TokenLaunchpadWithMetadata></TokenLaunchpadWithMetadata>
           </div>
         </WalletModalProvider>
       </WalletProvider>

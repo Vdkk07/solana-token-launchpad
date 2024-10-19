@@ -12,11 +12,6 @@ const TokenLaunchpad = () => {
   const { connection } = useConnection();
 
   async function createToken() {
-    const name = document.getElementById("name").value;
-    const symbol = document.getElementById("symbol").value;
-    const imageURL = document.getElementById("imageURL").value;
-    const initialSupply = document.getElementById("initialSupply").value;
-
     const lamports = await getMinimumBalanceForRentExemptMint(connection);
     const keypair = Keypair.generate();
 
