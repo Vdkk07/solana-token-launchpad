@@ -13,6 +13,7 @@ import {
 import "@solana/wallet-adapter-react-ui/styles.css";
 import TokenLaunchpad from "./components/TokenLaunchpad";
 import TokenLaunchpadWithMetadata from "./components/TokenLaunchpadWithMetadata";
+import TokenLaunchpadWithMetadataMint from "./components/TokenLaunchpadWithMetadataMint";
 
 const App = () => {
   return (
