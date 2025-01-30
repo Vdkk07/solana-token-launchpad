@@ -46,7 +46,9 @@ const App = () => {
             }}
           >
             {/* <TokenLaunchpad></TokenLaunchpad> */}
-            <TokenLaunchpadWithMetadata></TokenLaunchpadWithMetadata>
+{/*<TokenLaunchpadWithMetadata></TokenLaunchpadWithMetadata> */}
+               <TokenLaunchpadWithMetadataMint />
+
           </div>
         </WalletModalProvider>
       </WalletProvider>
